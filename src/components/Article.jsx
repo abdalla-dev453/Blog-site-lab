@@ -1,5 +1,5 @@
 
-export default function Article({ title, date, preview }) {
+function Article({ title, date, preview }) {
 
     return (
         <article>
@@ -9,3 +9,5 @@ export default function Article({ title, date, preview }) {
         </article>
     );
 }
+
+export default Article;

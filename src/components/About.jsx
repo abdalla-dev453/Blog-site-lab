@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About({ image, about }) {
+function About({ image, about }) {
     return (
             <aside>
                 <img src={image} className="logo" alt="blog logo" />
@@ -8,3 +8,5 @@ export default function About({ image, about }) {
             </aside>
     );
 }
+
+export default About;
