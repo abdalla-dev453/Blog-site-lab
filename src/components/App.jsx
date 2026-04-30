@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import About from "./components/About";
-import ArticleList from "./components/ArticleList";
+import Header from "./Header";
+import About from "./About";
+import ArticleList from "./ArticleList";
 
 function App() {
     const posts = [
@@ -23,7 +23,7 @@ function App() {
             <Header name="My Blog" />
 
             <About
-                image="/blog.jpeg"
+                image="https://via.placeholder.com/215"
                 about="Welcome to my blog where I share ideas and stories."
             />
 
